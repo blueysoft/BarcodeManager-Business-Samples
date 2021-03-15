@@ -8,14 +8,14 @@
 
   <Identity
     Name="a5b3f339-b2b0-4693-9acc-0f61468f89cf"
-    Publisher="CN=tomoh_a232qmh"
+    Publisher="CN=blueysoft"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="a5b3f339-b2b0-4693-9acc-0f61468f89cf" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>ProtocolActivation</DisplayName>
-    <PublisherDisplayName>tomoh_a232qmh</PublisherDisplayName>
+    <DisplayName>ProtocolActivationSample</DisplayName>
+    <PublisherDisplayName>blueysoft</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

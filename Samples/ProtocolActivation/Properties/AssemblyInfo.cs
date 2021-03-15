@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は、以下の属性セットによって制御されます。
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
-[assembly: AssemblyTitle("ProtocolActivation")]
+[assembly: AssemblyTitle("ProtocolActivationSample")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ProtocolActivation")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyProduct("ProtocolActivationSample")]
+[assembly: AssemblyCopyright("Copyright © 2021 Blueyacht Software")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
