@@ -26,11 +26,11 @@
             </Grid.RowDefinitions>
             <StackPanel Grid.Row="0" Orientation="Vertical">
                 <TextBlock Text="LaunchUriForResultsAsync" FontWeight="ExtraBold" FontSize="{StaticResource TextStyleLargeFontSize}"/>
-                <muxc:RadioButtons x:Name="TargetAppRadioButtons" SelectedIndex="0"  MaxColumns="2" Header="1. Select target application" Margin="0,8" FontWeight="Bold">
+                <muxc:RadioButtons x:Name="TargetAppRadioButtons" SelectedIndex="0"  MaxColumns="2" Header="1. Select application" Margin="0,8" FontWeight="Bold">
                     <RadioButton Content="Barcode Manager for Business Basic" Tag="42795blueyachtsoftware.BarcodeManagerforBusinessBa_4aw44ckj2xyg8"/>
                     <RadioButton Content="Barcode Manager for Business" Tag="42795blueyachtsoftware.BarcodeManagerforBusiness_4aw44ckj2xyg8"/>
                 </muxc:RadioButtons>
-                <TextBlock Text="2. Launch the app by specifying media source" Margin="0,8" FontWeight="Bold"/>
+                <TextBlock Text="2. Launch the app using the specified media" Margin="0,8" FontWeight="Bold"/>
                 <StackPanel Orientation="Horizontal">
                     <Button Margin="0,8" Click="Button_Click" Tag="camera">
                         <Button.Content>
@@ -77,8 +77,6 @@
                 <TextBlock Text="URI Scheme" FontWeight="ExtraBold" FontSize="{StaticResource TextStyleLargeFontSize}"/>
                 <TextBlock Text="Camera" FontWeight="Bold"/>
                 <TextBlock Text="barcodemgr:reader?source=camera"/>
-                <TextBlock Text="barcodemgr:reader?source=camera&amp;action=start"/>
-                <TextBlock Text="barcodemgr:reader?source=camera&amp;action=stop"/>
                 <TextBlock Text="File" Margin="0,8,0,0" FontWeight="Bold"/>
                 <TextBlock Text="barcodemgr:reader?source=file"/>
                 <TextBlock Text="Clip" Margin="0,8,0,0" FontWeight="Bold"/>
