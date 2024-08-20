@@ -2,7 +2,8 @@
 
 プロトコルアクティベーション機能を利用して、業務アプリケーションから「バーコード マネージャー for Business」アプリを起動し、バーコードの読み取り、結果の取得（表示）を行うサンプルです。
 > **Note:** サンプルアプリケーションの実行には、[バーコード マネージャー for Business](https://www.microsoft.com/store/apps/9PF2KPXK63NM) または
-> [バーコード マネージャー for Business Basic](https://www.microsoft.com/store/apps/9N15FGRXW88B) アプリがPCにインストールされている必要があります。 
+> [バーコード マネージャー for Business Basic](https://www.microsoft.com/store/apps/9N15FGRXW88B) アプリがPCにインストールされている必要があります。
+> **重要:** 現在、アプリバージョン3.x以降ではこの機能は利用できません。 
 
 ![BMBizHelp121](https://user-images.githubusercontent.com/29191374/111261560-ff6bb600-8665-11eb-9e8d-0a18e3af0e90.png)
 
